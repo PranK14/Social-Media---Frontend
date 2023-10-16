@@ -35,6 +35,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
     } else {
       getPosts();
     }
+     // eslint-disable-next-line
   }, []); 
 
   return (
